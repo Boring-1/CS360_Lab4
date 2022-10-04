@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>CS360_lab4_photos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+        <style>
+            body {
+                background-color: #93a4c6;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+             <ul>    
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="bio.html">BIO</a></li> 
+                <li><a class="active" href="photos.html">Photos</a></li>
+                <li><a href="index.html">Home</a></li>                
+            </ul>
+        </nav>
+        <div class="container-lg">
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <div class="col-sm-6">
+                        <img src="images/7.jpeg" class="gallery-item" alt="gallery">
+                    </div>
+                     <div class="col-sm-6">
+                        <img src="./images/8.webp" class="gallery-item" alt="gallery">
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="col-sm-6">
+                        <img src="./images/13.jpeg" class="gallery-item" alt="gallery">
+                    </div>
+                     <div class="col-sm-6">
+                        <img src="./images/14.jpeg" class="gallery-item" alt="gallery">
+                    </div>
+                </div>
+        </div>
+            
+        <footer>
+            <ul>
+                <li class="icons"><a href="https://www.facebook.com/"><i class="uil uil-facebook-f"></i> </a></li>
+                <li class="icons"><a href="https://twitter.com/i/flow/login"><i class="uil uil-twitter"></i> </a></li>
+                <li class="icons"><a href="http://instagram.com"><i class="uil uil-instagram"></i> </a></li>
+            </ul>           
+        </footer>
+    <!-- Modal -->
+        <div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <img src="./images/1.jpg" class="modal-img" alt="modal img">
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
